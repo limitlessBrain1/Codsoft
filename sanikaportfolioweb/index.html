@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanika-Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    *{
+      margin:0;
+      padding: 0;
+    }
+body{
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+nav{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(37, 37, 96) ;
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li{
+  list-style: none;
+  margin: 0 23px ;
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+
+}
+nav ul li a:hover{
+
+  color:rgb(150, 134, 159);
+  font-size: 1rem;
+
+}
+  hr {
+  border: 0.1;
+  background: color rgb(67, 59, 67);
+  height: 1.2px;
+  margin: 40px 84px;
+
+
+} 
+ secondSection hr {
+  border: 0.1;
+  background: color rgb(67, 59, 67);
+  height: 1.2px;
+  margin: 40px 84px;
+
+
+} 
+
+
+
+.left{
+  font-size:1.5 rem ;
+}
+
+.firstSection{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 120px 0;
+}
+
+
+.firstSection > div{
+ width: 30%;
+ 
+}
+
+.leftSection {
+  
+  font-size: 3rem;
+
+}
+.rightSection img {
+  width: 100%;
+ 
+ 
+}
+
+.purple{
+  color: rgb(169, 126, 210);
+
+}
+#element{
+  color: rgb(169, 126, 210);
+
+}
+.secondSection{
+  max-width: 80vw;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+}
+.thirdSection{
+  max-width: 80vw;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.fourSection{
+  max-width: 80vw;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <main>
+      <section class ="first">
+      <div class="leftSection"></div>
+      <div class ="rightSection"></div>
+      </section>
+    </main>
+    <nav>
+      <div class="left">Sanika's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact Me</a></li>
+           
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class ="firstSection">
+      <div class="leftSection">
+        Hi, My name is <span class="purple" >Sanika ;</span>
+        <div>and I am a</div>
+        <span id="element"></span>
+
+      </div>
+      
+      <div class="rightSection">
+        <img src ="sf.webp"
+      </div>
+
+        </section>
+         <hr>
+          <section class="secondSection">
+           <h1>About</h1>
+           
+           <div>
+            I am Third year computer engineering student in Pimpari Chinchwad College of Engineering,Pune.
+           </div>
+            </section>
+            <hr>
+           <section class="thirdSection">
+            <h1>Projects</h1>
+
+            <div class="zero">
+             Portfolio website
+
+
+              <li><a href="/">HTML</a></li>
+              <li><a href="/">CSS</a></li>
+              <li><a href="/">JavaScript</a></li>
+
+            </div>
+
+            <div class="one">UI/UX design of Pharmacy App</div>
+            
+            <div class="two">https://www.figma.com/proto/cgsFR7t639DKVjck5TTAhl?type=design&node-id=0-1&mode=design&t=iMLc3blKbFfXD4Lr-6</div>
+           </section>
+            <hr>
+            <section class="fourSection">
+              <h1>Contact me</h1>
+              <a href="#" class="fa fa-facebook"></a>
+              <a href="#" class="fa fa-linkedin"></a>
+              <a href="#" class="fa fa-instagram"></a>
+            </section>
+           </main>
+
+
+
+
+   
+           <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+              <!-- Load library from the CDN -->
+              <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+              <!-- Setup and start animation! -->
+          <script>
+                var typed = new Typed('#element', {
+              strings: ['Web Developer.', ' UI/UX Designer.'],
+              typeSpeed: 50,
+                });
+              </script>
+
+      </body>
+</html>
